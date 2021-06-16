@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #006494;
+}
+
+.container{
+    height: 700px;
+    width: 500px;
+    border: solid 1px #1B98E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #1B98E0;
+}
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #E8F1F2;
+    letter-spacing: 2px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #E8F1F2;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\01F3AF"; /* precisamos usar o after para usar o content */
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "\01F3F9"; /* precisamos usar o after para usar o content */
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#reiniciar{
+    padding: 10px 30px;
+    margin: 15px;
+    font-size: 1.3em;
+    color: #13293D;
+    background: #E8F1F2;
+    transition: 1s all;
+}
+#reiniciar:hover{
+    cursor: pointer;
+    color: #E8F1F2;
+    background: #13293D;
+    transform: scale(1.1);
+}
