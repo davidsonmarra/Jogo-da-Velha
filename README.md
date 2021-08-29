@@ -3,7 +3,6 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <h1 align="center">Jogo da Velha</h1>
 <img align="center" src="./assets/tela.png">
-<br/><br/>
 <h3 align="center">
   <a href="https://davidsonmarra.github.io/Jogo-da-Velha/">
     <img  src="https://img.shields.io/badge/-ACCESS%20THE%20PROJECT-006494?&style=for-the-badge&logoColor=fff"/>
